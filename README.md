@@ -1,6 +1,9 @@
 # 265151_PythonMiniProject
 This is the Github Repository for Python Mini Project.
 
+## Introduction
+This Mini Project is basically a small game where the system generates a random number between 1 and 10 and the player has to guess that number . The program is designed as it count the attempts in which player has  guessed a number and give hints if player has not guessed the number in very first attempt. 
+
 ## Mandates
 Task             | Status
 -------------------| -----------------------------------------
