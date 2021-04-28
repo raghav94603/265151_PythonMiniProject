@@ -7,9 +7,9 @@ import random
 PREV_SCORE = []
 def showprev_score():
  """Append the attempts"""
-    if len(PREV_SCORE) <= 0:
+if len(PREV_SCORE) <= 0:
         print("No Scores Found ! Let's Go You Should set a Target ! ")
-    else:
+else:
         print("The Previous Record is {} attempts".format(min(PREV_SCORE)))
 def play_game():
 """This is the function for playing game"""
