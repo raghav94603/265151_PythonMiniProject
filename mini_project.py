@@ -6,13 +6,13 @@
 import random
 PREV_SCORE = []
 def showprev_score():
-    """ Append the attempts """
+    """Append the attempts"""
     if len(PREV_SCORE) <= 0:
         print("No Scores Found ! Let's Go You Should set a Target ! ")
     else:
         print("The Previous Record is {} attempts".format(min(PREV_SCORE)))
 def play_game():
-    """ This is the function for playing game """
+    """This is the function for playing game"""
     disp_random = int(random.randint(1, 10))
 
     print("Hey! Player Welcome to the Number Guessing Game ")
