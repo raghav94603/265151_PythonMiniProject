@@ -6,7 +6,7 @@
 import random
 PREV_SCORE = []
 def showprev_score():
-"""Append the attempts"""
+ """Append the attempts"""
     if len(PREV_SCORE) <= 0:
         print("No Scores Found ! Let's Go You Should set a Target ! ")
     else:
