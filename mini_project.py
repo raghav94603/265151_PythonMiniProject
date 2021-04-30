@@ -28,7 +28,17 @@ def play_game():
     while game_choice.lower() == "yes":
         try:
             guess_num = input("Kindly Pick a Number between 1 and 10 : ")
-            if int(guess_num) == disp_random:
+            if int(guess_num) < disp_random:
+
+                print("Guess Higher")
+                p_attempts += 1
+
+            elif int(guess_num) > disp_random:
+
+                print("Guess Lower")
+                p_attempts += 1
+
+            elif int(guess_num) == disp_random:
 
                 print("Great! You guessed it correct.")
                 p_attempts += 1
@@ -39,15 +49,6 @@ def play_game():
 
                 break
 
-            elif int(guess_num) > disp_random:
-
-                print("Guess Lower")
-                p_attempts += 1
-
-            elif int(guess_num) < disp_random:
-
-                print("Guess Higher")
-                p_attempts += 1
 
             elif int(guess_num) > 10 and int(guess_num) < 0:
 
