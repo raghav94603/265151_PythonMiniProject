@@ -18,8 +18,8 @@ Items           | Description
 `System`           | Ubuntu
 `IDE`   | Pycharm
 `Tool for Static Code Analysis`         | Pylint
-`Result` | 9.77/10
+`Result` | 10/10
 
 ## Screenshot for Static Code Analysis
 
-![Static Code Analysis](static.png)
+![Static Code Analysis](static1.png)
